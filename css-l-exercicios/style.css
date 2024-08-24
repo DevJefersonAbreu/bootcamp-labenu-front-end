@@ -1,0 +1,53 @@
+/* 1. Conexão com a fonte Helvetica e estilização do main */
+main {
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  
+  /* 3. Estilos específicos para cada ID de article */
+  #bloco-1 {
+    border-color: #ff9900; 
+    background-color: #ffe0e0; 
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #ff9900; 
+    margin-bottom: 20px;
+  }
+  
+  #bloco-2 {
+    background-color: #11da21; 
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #15ff00 ;
+    margin-bottom: 20px;
+  }
+  
+  #bloco-3 {
+    background-color: #1b0ed3; 
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px dotted  #0a0441;
+    margin-bottom: 20px;
+  }
+  
+  #bloco-4 {
+    background-color: #b5e019; 
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px dashed #ff9900 ;
+    margin-bottom: 20px;
+  }
+  
+  

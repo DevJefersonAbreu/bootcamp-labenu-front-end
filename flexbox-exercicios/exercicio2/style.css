@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se reorganizem em múltiplas linhas */
+    gap: 10px; /* Adiciona um espaço entre os itens */
+    justify-content: center; /* Opcional: centraliza os itens horizontalmente */
+}
+
+figure {
+    margin: 0; /* Remove a margem padrão */
+}
+
+img {
+    display: block;
+}

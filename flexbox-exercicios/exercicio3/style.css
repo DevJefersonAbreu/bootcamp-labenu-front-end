@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+section {
+    height: 100px;
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80px;
+}
+
+/* Ordem e tamanhos específicos */
+#section-1 {
+    margin-top: 10px;/* Nenhuma alteração necessária */
+}
+
+#section-2 {
+    flex-grow: 2; /* 2/5 do espaço restante */
+}
+
+#section-3 {
+    flex-grow: 3; /* 3/5 do espaço restante */
+}
+
+#section-4 {
+    flex-basis: 200px; /* Base flex de 200px */
+}
+
+#section-5 {
+    order: -1; /* Este item será o primeiro na ordem */
+}
