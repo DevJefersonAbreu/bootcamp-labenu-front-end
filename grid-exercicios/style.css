@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Uma coluna */
+  grid-template-rows: 1fr 40px 40px; /* Três linhas */
+  justify-items: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  margin-top: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Três colunas */
+  grid-template-rows: repeat(8, 100px); /* Oito linhas de 100px cada */
+  gap: 10px; /* Espaçamento opcional entre os itens da galeria */
+  width: 900px;
+  height: 800px;
+  margin: 0 auto;
+  justify-items: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.gallery img {
+  width: 100%;
+  border: 1px solid black;
+}
